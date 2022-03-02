@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>CDAT Proj</title>
+    <!-- Links to fonts used by website-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+<!-- Header Categories for website devisions-->
+<section class="header">
+    <nav>
+        <a href="index.html"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">PROBLEM</a></li>
+                <li><a href="">INFORMATION</a></li>
+                <li><a href="">INFOGRAPHIC</a></li>
+                <li><a href="">SOLUTION</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+<!--Base template title page; update to suit group later!!-->
+<div class="text-box">
+    <h1>Narwhals Against The World</h1>
+    <p> Insert Text</p>
+</div>
+</section>
+<!-- V Javascript Here V-->
+<script>
+    var navlinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0"
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px"
+    }
+</script>
+</body>
+</html>
