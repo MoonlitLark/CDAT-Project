@@ -61,40 +61,32 @@ nav{
     font-size: 50px;
     color:#fff
 }
-nav .fa-solid{
-    display: none;
+/*--grievances--*/
+.grievances{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
 }
-@media(max-width: 700px){
-    .text-box h1{
-        font-size: 20px;
-    }
-    .text-box p{
-        margin: 10px 0 40px;
-        font-size: 15px;
-        color:#fff
-    }
-    .nav-links ul li {
-       display: block;
-    }
-    .nav-links{
-        position: absolute;
-        background:#96F5F5;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-    nav .fa-solid{
-        display:block;
-        color:#fff;
-        margin: 10px;
-        font-size: 22px;
-        cursor: pointer;
-    }
-    .nav-links ul{
-        padding: 30px;
-    }
+.grievances h1{
+    font-size:40px;
+    font-weight: 300;
+}
+.grievances h2{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 30px;
+}
+.grievances p{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: left;
+}
+.grievances img{
+    width: 450px;
+    height:500px;
+    position: relative;
+    left: 300px;
+    bottom: 50px;
 }
