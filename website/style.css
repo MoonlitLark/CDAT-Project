@@ -58,15 +58,59 @@ nav{
 }
 .text-box p{
     margin: 10px 0 40px;
-    font-size: 50px;
+    font-size: 40px;
     color:#fff
+}
+/*--Adaptations--*/
+.adaptations{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(220,236,244);
+}
+.adaptations h1{
+    font-size:40px;
+    font-weight: 300;
+}
+.adaptations h2{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 30px;
+}
+.adaptations h3{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 30px;
+}
+.adaptations p{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: left;
+    left: 20%;
+    padding-left: 30px;
+}
+.adaptations pre{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: left;
+    right: 200px;
+}
+.adaptations img{
+    width: 650px;
+    height:450px;
+    position: relative;
+    left: 300px;
+    bottom: 200px;
 }
 /*--grievances--*/
 .grievances{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 15px;
 }
 .grievances h1{
     font-size:40px;
@@ -84,6 +128,36 @@ nav{
     text-align: left;
 }
 .grievances img{
+    width: 450px;
+    height:500px;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+}
+/*--Solution--*/
+.solution{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+.solution h1{
+    font-size:40px;
+    font-weight: 300;
+}
+.solution h2{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 30px;
+    left: 30px;
+}
+.solution p{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: left;
+}
+.solution img{
     width: 450px;
     height:500px;
     position: relative;
